@@ -1,0 +1,46 @@
+{
+    "qase": {
+        "api_token": "<QASE_API_TOKEN>",
+        "host": "qase.io",
+        "ssl": true
+    },
+
+    "zephyr": {
+        "api_token": "<ZEPHYR_SCALE_API_TOKEN>",
+        "base_url": "https://api.zephyrscale.smartbear.com/v2"
+    },
+
+    "jira": {
+        "email": "",
+        "api_token": ""
+    },
+
+    "projects": {
+        "import_all": false,
+        "import": ["<JIRA_PROJECT_KEY>"],
+        "exclude": [],
+        "mapping": {}
+    },
+
+    "cases": {
+        "priority_map": {},
+        "status_map": {}
+    },
+
+    "runs": {
+        "created_after": 0,
+        "status_map": {}
+    },
+
+    "users": {
+        "default": "<QASE_USER_EMAIL_OR_ID>"
+    },
+
+    "logging": {
+        "level": "info",
+        "write_to_file": true,
+        "dir": "./logs"
+    },
+
+    "prefix": ""
+}
